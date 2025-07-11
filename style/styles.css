@@ -297,4 +297,45 @@ h1 {
   background-color: #4338ca;
 }
 
+.footer-section {
+  background-color: #ffffff;
+  padding: 60px 20px;
+  text-align: center;
+}
 
+.footer-container {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.footer-logo {
+  font-size: 48px;
+  font-weight: bold;
+  color: #4f46e5;
+  margin-bottom: 20px;
+}
+
+.footer-description {
+  font-size: 14px;
+  color: #888;
+  line-height: 1.6;
+  margin-bottom: 30px;
+}
+
+.footer-nav {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.footer-nav a {
+  color: #888;
+  text-decoration: none;
+  font-size: 14px;
+  transition: color 0.3s ease;
+}
+
+.footer-nav a:hover {
+  color: #4f46e5;
+}
